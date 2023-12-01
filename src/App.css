@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 20px;
+  background-color: green;
+}
+.title {
+  height: fit-content;
+  /* background-color: red; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 8px;
+  margin: 8px 0px;
+
+  /* width: fit-content; */
+}
+.title img {
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+}
+.title p {
+  padding: 8px;
+  font-size: 1.2rem;
+}
+.input-box {
+  height: fit-content;
+  padding: 4px;
+  margin: 4px 0px;
+  display: flex;
+  background-color: green;
+}
+.input-box input {
+  padding: 8px;
+  border: transparent;
+  outline: 0;
+  /* background: transparent; */
+}
+.input-box button {
+  padding: 8px;
+  border: transparent;
+  cursor: pointer;
+  color: green;
+  font-weight: bold;
+}
+
+.clear-btn {
+  padding: 12px;
+  /* background-color: yellow; */
+  margin: 12px;
+}
+.clear-btn button {
+  padding: 8px;
+  width: 100%;
+  border-radius: 12px;
+  background: whitesmoke;
+  outline: 0;
+  border: 0;
+  border-radius: 8px;
+  cursor: pointer;
+  color: red;
+  font-weight: bold;
+}
+.todo-items {
+  height: fit-content;
+  width: 60%;
+  padding: 8px;
+ 
+}
+.todo-items h3 {
+  padding: 8px;
+}
+.each-items {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  background-color: white;
+  justify-content: space-between;
+ 
+}
+.edit-delete {
+  display: flex;
+  gap: 8px;
+}
+.edit-delete button {
+  padding: 8px;
+  border: transparent;
+  cursor: pointer;
+  color: green;
+  font-weight: bold;
+}
+.edit-btn {
+  color: green;
+}
+.delete-btn {
+  color: red;
+}
